@@ -1,0 +1,49 @@
+.banners {
+    background: linear-gradient(
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)),
+        url("../images/Hero.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    max-width: 1600px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 200px 0;
+}
+
+.banners-title {
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--btn-color);
+    margin-bottom: 30px;
+    max-width: 696px;
+    margin: auto
+}
+
+.banners-btn {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.06em;
+    color: var(--btn-color);
+    min-width: 200px;
+    min-height: 50px;
+    margin-left: 485px;
+    margin-right: 485px;
+    margin-top: 30px;
+    padding: 0;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.banners-btn {
+    background-color: var(--accent-color);
+}
