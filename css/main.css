@@ -68,6 +68,11 @@ body {
   margin: -1px;
 }
 
+.section {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .header {
   padding-top: 24px;
   padding-bottom: 24px;
