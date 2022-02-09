@@ -6,6 +6,17 @@
 //COMPONENTS
 
 @import "./components/container";
+@import "./components/sections";
+@import "./components/modal";
 
-@import "./heder";
-@import "./banners";
+//LAYOUT
+
+@import "./layout/heder";
+@import "./layout/banners";
+@import "./layout/advantages";
+@import "./layout/practice";
+@import "./layout/team";
+@import "./layout/clients";
+@import "./layout/footer";
+@import "./layout/portfolio-filter";
+@import "./layout/portfolio-services";

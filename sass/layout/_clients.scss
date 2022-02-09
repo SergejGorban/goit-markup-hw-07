@@ -1,0 +1,37 @@
+.clients-title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    padding-bottom: 50px;
+}
+
+.clients-list {
+    display: flex;
+}
+
+.clients-link {
+    width: 170px;
+    height: 92px;
+    border: 1px solid #AFB1B8;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #afb1b8;
+    transition: border var(--duration) var(--cubik);
+    &:focus, &:hover {
+        border-color: var(--accent-color);
+        color: var(--accent-color);
+    }
+}
+
+.clients-item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.clients-icon {
+    fill: currentColor;
+    transition: var(--property) var(--duration) var(--cubik);
+}

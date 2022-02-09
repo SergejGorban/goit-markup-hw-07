@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --title-color: #212121;
     --text-color: #757575;
     --accent-color: #2196F3;
@@ -39,12 +39,12 @@ body {
     padding-top: 94px;
     padding-bottom: 94px;
 }
-
+ */
 
 
 /*-----------------HEADER---------------*/
 
-
+/* 
 .header {
     padding-top: 24px;
     padding-bottom: 24px;
@@ -149,7 +149,7 @@ body {
 
 /*-----------------BANNERS---------------*/
 
-.banners {
+/* .banners {
     background: linear-gradient(
         rgba(47, 48, 58, 0.4),
         rgba(47, 48, 58, 0.4)),
@@ -197,11 +197,11 @@ body {
 
 .banners-btn {
     background-color: var(--accent-color);
-}
+}  */
 
 /*-----------------ADVANTAGES---------------*/
 
-.advantages-list {
+/* .advantages-list {
     display: flex;
 }
 
@@ -245,11 +245,11 @@ body {
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--text-color);
-}
+} */
 
 /*-----------------PRACTICE---------------*/
 
-.practice {
+/* .practice {
     padding-top: 0;
 }
 
@@ -294,12 +294,11 @@ body {
     height: 70px;
     background: rgba(47, 48, 58, 0.8);
     bottom: 0;
-
-}
+} */
 
 /*-----------------TEAM---------------*/
 
-.team {
+/* .team {
     background-position: center;
     background-size: cover;
     max-width: 1600px;
@@ -393,11 +392,11 @@ body {
 .team-social-link:hover {
     background-color: var(--accent-color);
     color: var(--btn-color);
-}
+} */
 
 /* -----------------CLIENTS------------- */
 
-.clients-title {
+/* .clients-title {
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -435,11 +434,11 @@ body {
 .clients-link:focus {
     border-color: var(--accent-color);
     color: var(--accent-color);
-}
+} */
 
 /*-----------------FOOTER---------------*/
 
-.footer {
+/* .footer {
     background-color: #2F303A;
     padding: 60px 0;
 }
@@ -597,13 +596,13 @@ body {
     align-items: center;
     letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
-}
+} */
 
 /*-------------------PORTFOLIO-----------------*/
 
 /*-------------------FILTER-----------------*/
 
-.filter-btn {
+/* .filter-btn {
     font-weight: 500;
     font-size: 16px;
     line-height: 1.62;
@@ -635,11 +634,11 @@ body {
     color: var(--btn-color);
     background-color: var(--accent-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
-}
+} */
 
 /*-------------------SERVICES-----------------*/
 
-.services-list {
+/* .services-list {
     display: flex;
     flex-wrap: wrap;
 }
@@ -723,11 +722,11 @@ body {
 .services-link:hover,
 .services-link:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
-}
+} */
 
 /*-------------------- Modal -------------------*/
 
-.backdrop {
+/* .backdrop {
     position: fixed;
     top: 0;
     width: 100%;
@@ -940,4 +939,4 @@ body {
     line-height: 1.87;
     color: var(--btn-color);
     padding: 0;
-}
+} */
