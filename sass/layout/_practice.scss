@@ -2,12 +2,9 @@
     padding-top: 0;
 }
 
-.practice-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
+.practice-container__title {
+    @include font (700, 36px, 1.17, 0.03em);
     text-align: center;
-    letter-spacing: 0.03em;
     color: var(--title-color);
     margin-bottom: 50px;
 }
@@ -16,29 +13,25 @@
     display: flex;
 }
 
-.practice-item:not(:last-child) {
+.practice-list__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.practice-item {
+.practice-list__item {
     position: relative;
 }
 
-.practice-text {
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 1.14;
+.practice__wrap__text {
+    @include font (700, 14px, 1.14, 0.03em);
     text-align: center;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
     color: var(--btn-color);
 }
 
-.practice-wrap {
-    display: flex;
+.practice__wrap {
+    @extend %center-list;
     position: absolute;
     justify-content: center;
-    align-items: center;
     width: 370px;
     height: 70px;
     background: rgba(47, 48, 58, 0.8);

@@ -12,12 +12,9 @@
     padding: 200px 0;
 }
 
-.banners-title {
-    font-weight: 900;
-    font-size: 44px;
-    line-height: 1.36;
+.baners-container__title {
+    @include font (900, 44px, 1.36, 0.06em);
     text-align: center;
-    letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--btn-color);
     margin-bottom: 30px;
@@ -25,13 +22,10 @@
     margin: auto
 }
 
-.banners-btn {
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 1.87;
+.baners-container__btn {
+    @include font (700, 16px, 1.87, 0.06em);
     align-items: center;
     text-align: center;
-    letter-spacing: 0.06em;
     color: var(--btn-color);
     min-width: 200px;
     min-height: 50px;

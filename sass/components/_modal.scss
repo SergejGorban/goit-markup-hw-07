@@ -35,13 +35,12 @@
 
 .modal-close {
     position: absolute;
-    display: flex;
     top: 8px;
     right: 8px;
     width: 30px;
     height: 30px;
     justify-content: center;
-    align-items: center;
+    @extend %center-list;
     border: 1px solid rgba(0, 0, 0, 0.1);
     border-radius: 50%;
     background-color: var(--btn-color);
@@ -146,8 +145,7 @@
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--text-color);
-    display: flex;
-    align-items: center;
+    @extend %center-list;
     justify-content: center;
     margin-top: 20px;
     &:before {
@@ -180,9 +178,8 @@
 }  
 
 .modal-block-btn {
-    display: flex;
+    @extend %center-list;
     justify-content: center;
-    align-items: center;
     margin-top: 30px;
 }
 

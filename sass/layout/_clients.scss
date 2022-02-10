@@ -1,9 +1,6 @@
-.clients-title {
-    font-weight: 700;
-    font-size: 36px;
-    line-height: 1.17;
+.clients-container__title {
+    @include font (700, 36px, 1.17, 0.03em);
     text-align: center;
-    letter-spacing: 0.03em;
     padding-bottom: 50px;
 }
 
@@ -11,14 +8,13 @@
     display: flex;
 }
 
-.clients-link {
+.clients-list__link {
     width: 170px;
     height: 92px;
     border: 1px solid #AFB1B8;
     border-radius: 4px;
-    display: flex;
+    @extend %center-list;
     justify-content: center;
-    align-items: center;
     color: #afb1b8;
     transition: border var(--duration) var(--cubik);
     &:focus, &:hover {
@@ -27,11 +23,11 @@
     }
 }
 
-.clients-item:not(:last-child) {
+.clients-list__item:not(:last-child) {
     margin-right: 30px;
 }
 
-.clients-icon {
+.clients-list__icon {
     fill: currentColor;
     transition: var(--property) var(--duration) var(--cubik);
 }
