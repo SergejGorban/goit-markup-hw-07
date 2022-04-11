@@ -61,28 +61,28 @@ body {
   margin: -1px;
 }
 
-.modal-close, .modal-label-check, .modal-block-btn, .header__container, .contacts-list__link, .advantages__box, .practice__wrap, .socials-list__link, .clients-list__link, .social-list__link, .subscribe-input::-webkit-input-placeholder {
+.modal-close, .modal-label-check, .modal-block-btn, .header__container, .contacts-list__link, .advantages__box, .practice__wrap, .socials-list__link, .clients-list__link, .social-list__link, .subscribe__input::-webkit-input-placeholder {
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
           align-items: center;
 }
 
-.modal-close, .modal-label-check, .modal-block-btn, .header__container, .contacts-list__link, .advantages__box, .practice__wrap, .socials-list__link, .clients-list__link, .social-list__link, .subscribe-input:-ms-input-placeholder {
+.modal-close, .modal-label-check, .modal-block-btn, .header__container, .contacts-list__link, .advantages__box, .practice__wrap, .socials-list__link, .clients-list__link, .social-list__link, .subscribe__input:-ms-input-placeholder {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
       align-items: center;
 }
 
-.modal-close, .modal-label-check, .modal-block-btn, .header__container, .contacts-list__link, .advantages__box, .practice__wrap, .socials-list__link, .clients-list__link, .social-list__link, .subscribe-input::-ms-input-placeholder {
+.modal-close, .modal-label-check, .modal-block-btn, .header__container, .contacts-list__link, .advantages__box, .practice__wrap, .socials-list__link, .clients-list__link, .social-list__link, .subscribe__input::-ms-input-placeholder {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
       align-items: center;
 }
 
-.modal-close, .modal-label-check, .modal-block-btn, .header__container, .contacts-list__link, .advantages__box, .practice__wrap, .socials-list__link, .clients-list__link, .social-list__link, .subscribe-input::placeholder {
+.modal-close, .modal-label-check, .modal-block-btn, .header__container, .contacts-list__link, .advantages__box, .practice__wrap, .socials-list__link, .clients-list__link, .social-list__link, .subscribe__input::placeholder {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -164,11 +164,11 @@ body {
   color: var(--accent-color);
 }
 
-.modal-icon-close {
+.icon-close {
   fill: currentColor;
 }
 
-.modal-title {
+.modal__title {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.15;
@@ -755,6 +755,10 @@ body {
   display: flex;
 }
 
+.logo-container {
+  padding-right: 70px;
+}
+
 .footer__logo {
   font-family: Raleway;
   font-weight: 700;
@@ -808,14 +812,7 @@ body {
   margin-bottom: 9px;
 }
 
-.logo-container {
-  padding-right: 70px;
-}
-
 .social-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
@@ -828,7 +825,6 @@ body {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding-top: 20px;
 }
 
 .socials-list__item + .socials-list__item {
@@ -870,7 +866,7 @@ body {
   margin-left: 93px;
 }
 
-.subscribe-title {
+.subscribe__title {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -886,7 +882,7 @@ body {
   display: inline-flex;
 }
 
-.subscribe-input {
+.subscribe__input {
   width: 358px;
   height: 50px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -898,7 +894,7 @@ body {
   background-color: #2F303A;
 }
 
-.subscribe-input::-webkit-input-placeholder {
+.subscribe__input::-webkit-input-placeholder {
   padding-left: 16px;
   font-weight: 400;
   font-size: 16px;
@@ -907,7 +903,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.subscribe-input:-ms-input-placeholder {
+.subscribe__input:-ms-input-placeholder {
   padding-left: 16px;
   font-weight: 400;
   font-size: 16px;
@@ -916,7 +912,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.subscribe-input::-ms-input-placeholder {
+.subscribe__input::-ms-input-placeholder {
   padding-left: 16px;
   font-weight: 400;
   font-size: 16px;
@@ -925,7 +921,7 @@ body {
   color: rgba(255, 255, 255, 0.6);
 }
 
-.subscribe-input::placeholder {
+.subscribe__input::placeholder {
   padding-left: 16px;
   font-weight: 400;
   font-size: 16px;
@@ -959,7 +955,7 @@ body {
   padding: 0;
 }
 
-.subscribe-icon {
+.subscribe__icon {
   margin-left: 10px;
 }
 
@@ -997,7 +993,7 @@ body {
   margin-bottom: 50px;
 }
 
-.filter-item:not(:last-child) {
+.filter__item:not(:last-child) {
   margin-right: 8px;
 }
 
