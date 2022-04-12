@@ -61,28 +61,28 @@ body {
   margin: -1px;
 }
 
-.modal-close, .modal-label-check, .modal-block-btn, .header__container, .contacts-list__link, .advantages__box, .practice__wrap, .socials-list__link, .clients-list__link, .social-list__link, .subscribe__input::-webkit-input-placeholder {
+.modal-close, .modal-label-check, .modal-block-btn, .header-container, .contacts-list__link, .advantages__box, .practice__wrap, .socials-list__link, .clients-list__link, .social-list__link, .subscribe__input::-webkit-input-placeholder {
   display: -webkit-box;
   display: flex;
   -webkit-box-align: center;
           align-items: center;
 }
 
-.modal-close, .modal-label-check, .modal-block-btn, .header__container, .contacts-list__link, .advantages__box, .practice__wrap, .socials-list__link, .clients-list__link, .social-list__link, .subscribe__input:-ms-input-placeholder {
+.modal-close, .modal-label-check, .modal-block-btn, .header-container, .contacts-list__link, .advantages__box, .practice__wrap, .socials-list__link, .clients-list__link, .social-list__link, .subscribe__input:-ms-input-placeholder {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
       align-items: center;
 }
 
-.modal-close, .modal-label-check, .modal-block-btn, .header__container, .contacts-list__link, .advantages__box, .practice__wrap, .socials-list__link, .clients-list__link, .social-list__link, .subscribe__input::-ms-input-placeholder {
+.modal-close, .modal-label-check, .modal-block-btn, .header-container, .contacts-list__link, .advantages__box, .practice__wrap, .socials-list__link, .clients-list__link, .social-list__link, .subscribe__input::-ms-input-placeholder {
   display: -ms-flexbox;
   display: flex;
   -ms-flex-align: center;
       align-items: center;
 }
 
-.modal-close, .modal-label-check, .modal-block-btn, .header__container, .contacts-list__link, .advantages__box, .practice__wrap, .socials-list__link, .clients-list__link, .social-list__link, .subscribe__input::placeholder {
+.modal-close, .modal-label-check, .modal-block-btn, .header-container, .contacts-list__link, .advantages__box, .practice__wrap, .socials-list__link, .clients-list__link, .social-list__link, .subscribe__input::placeholder {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -415,6 +415,10 @@ body {
 }
 
 .site-list__link:focus, .site-list__link:hover {
+  color: var(--accent-color);
+}
+
+.start {
   color: var(--accent-color);
 }
 
@@ -753,6 +757,9 @@ body {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
 }
 
 .logo-container {
@@ -813,12 +820,13 @@ body {
 }
 
 .social-container {
-  -webkit-box-align: baseline;
-      -ms-flex-align: baseline;
-          align-items: baseline;
+  display: block;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.social-container-list {
+.social-list {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -827,7 +835,7 @@ body {
           justify-content: center;
 }
 
-.socials-list__item + .socials-list__item {
+.social-list__item + .social-list__item {
   margin-left: 10px;
 }
 
@@ -952,6 +960,7 @@ body {
   display: -webkit-inline-box;
   display: -ms-inline-flexbox;
   display: inline-flex;
+  margin-left: 12px;
   padding: 0;
 }
 

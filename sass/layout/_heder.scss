@@ -4,7 +4,7 @@
     border-bottom: 1px solid #ECECEC;
 }
 
-.header__container {
+.header-container {
     @extend %center-list;
 }
 
@@ -47,6 +47,10 @@
     &:focus, &:hover {
         color: var(--accent-color);
     }
+}
+
+.start {
+    color: var(--accent-color)
 }
 
 .contacts-list__link {

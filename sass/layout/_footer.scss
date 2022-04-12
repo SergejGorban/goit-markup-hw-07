@@ -5,6 +5,7 @@
 
 .footer-container {
     display: flex;
+    align-items: baseline;
 }
 
 .logo-container {
@@ -55,16 +56,14 @@
 }
 
 .social-container {
-    align-items: baseline;
-}
-
-.social-container-list {
-    display: flex;
+    display: block;
     justify-content: center;
 }
 
-.socials-list__item {
-    & + & {
+.social-list {
+    display: flex;
+    justify-content: center;
+    &__item + &__item {
         margin-left: 10px;
     }
 }
@@ -140,6 +139,7 @@
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     display: inline-flex;
+    margin-left: 12px;
     padding: 0;
 }
 
